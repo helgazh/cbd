@@ -1,0 +1,120 @@
+//header
+.ba-header{
+    background: #3939 url('../../../assets/img/1_bg.jpg') 50% no-repeat;
+    background-size: cover;
+    @include breakpoint(large){
+        height: 100vh;
+
+    }
+    height: 100%;
+    width: auto;
+    color: #f7f8f3;
+    padding-bottom: 57%;
+    
+    &__title{
+        @include breakpoint(large){
+            max-width: 700px;
+
+        }
+        margin-left: 42%;
+        text-align: right;
+        margin-bottom: 12%;
+        a{
+            color:  #f7f8f3;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: 75px;
+            text-align: right;
+            letter-spacing: 0.2em;
+            
+            &:hover{
+                color: #d2d4ca;
+            }
+            i{
+                margin-left: 20px;
+            }
+        }
+        button{
+            margin-top: 30px;
+            margin-left: 70%;
+            margin-bottom: 0;
+            &:hover{
+                color: #a7a8a1;
+                background:rgba($color: rgba(220, 221, 221, 0.938), $alpha: 1.0);
+            }
+        }
+        h1{
+            font-family: $body-font-family;
+            text-transform: uppercase;
+            color:  #f7f8f3;
+            font-size: 55px;
+            font-weight: 300;
+            line-height: 75px;
+            text-align: right;
+            letter-spacing: 0.2em;
+            margin-bottom: 0;
+        }
+        &--desc{
+            font-family: $body-font-family;
+            color:  #f7f8f3;
+            font-size: 24px;
+            font-weight: 200;
+            line-height: 75px;
+            text-align: right;
+            letter-spacing: 0.2em;
+        }
+    }
+}
+.ba-header-menu{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    border: 1px solid ghostwhite;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 15%;
+    .ba-logo{
+        font-family: Oswald;
+        color:  #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 55px;
+        text-align: left;
+    }
+    &__r{
+        span{
+            border-left: 1px solid #fff;
+            border-width: 100%;
+            padding-left: 33px;
+        }
+    }
+    a{
+        color: #ffffff;
+        &:hover{
+            text-decoration: line-through;
+        }
+    }
+    li+li{
+        margin-left: 50px;
+    }
+    li{
+        font-family: $body-font-family;
+        color:  #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 230px;
+        text-align: left;
+        text-transform: uppercase;
+        &:first-child{
+            margin-left: 60px;
+        }
+    }
+
+    
+}
+
+.header-arrow-2{
+    margin-left: 50%;
+    width: 30px;
+    height: 16px;
+}

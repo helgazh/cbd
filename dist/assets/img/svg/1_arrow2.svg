@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="30px" height="16px" viewBox="0 0 30 16">
+<filter filterUnits="objectBoundingBox" x="0.00" y="0.00" width="100.00" height="100.00" id="filter0">
+<feFlood flood-color="rgb(255,255,255)" result="coFloodOut1"/>
+<feComposite in="coFloodOut1" in2="SourceAlpha" operator="in" result="coOverlay1"/>
+<feBlend in="coOverlay1" in2="SourceGraphic" mode="normal" result="colorOverlay1"/>
+</filter>
+<path fillRule="evenodd" d="M 29.7 0.3C 29.28-0.11 28.61-0.11 28.2 0.3 28.2 0.3 15.01 13.47 15.01 13.47 15.01 13.47 1.8 0.3 1.8 0.3 1.39-0.11 0.72-0.11 0.3 0.3-0.11 0.72-0.11 1.39 0.3 1.8 0.3 1.8 14.24 15.69 14.24 15.69 14.44 15.9 14.7 16 14.99 16 15.25 16 15.53 15.9 15.74 15.69 15.74 15.69 29.67 1.8 29.67 1.8 30.11 1.39 30.11 0.72 29.7 0.3Z" fill="rgb(0,0,0)" filter="url(#filter0)"/></svg>
